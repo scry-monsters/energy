@@ -37,7 +37,7 @@ body {
 }
 
 /*---------------------------------------
-  Text               
+  Font and all               
 -----------------------------------------*/
 
 h2,
@@ -154,7 +154,7 @@ strong {
 }
 
 /*---------------------------------------
-  LOADER               
+  Loader               
 -----------------------------------------*/
 .preloader {
   position: fixed;
@@ -257,7 +257,7 @@ strong {
 }
 
 /*---------------------------------------
-  DIV SEPARATOR               
+  separator               
 -----------------------------------------*/
 .div-separator {
   position: relative;
@@ -287,7 +287,7 @@ strong {
 }
 
 /*---------------------------------------
-  FULL IMAGE               
+  full image           
 -----------------------------------------*/
 .full-image-img {
   display: block;
@@ -306,7 +306,7 @@ strong {
 }
 
 /*---------------------------------------
-  NAVIGATION               
+  navbar               
 -----------------------------------------*/
 .navbar {
   background: var(--white-color);
@@ -495,6 +495,13 @@ strong {
     height: 100vh;
   }
 }
+@media (max-width: 992px) {
+  .site-header.section-padding-img {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+}
 
 .slick-slideshow {
   margin-top: 86px;
@@ -624,9 +631,9 @@ strong {
 -----------------------------------------*/
 
 .custom-circle-image {
-  border-radius: 100px;
-  width: 55px;
-  height: 55px;
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
 }
 
 .custom-circle-image.team-image {
@@ -637,6 +644,10 @@ strong {
 /*---------------------------------------
   TESTIMONIAL               
 -----------------------------------------*/
+.testimonial{
+  background-image: url("https://wallpaperaccess.com/full/1991198.jpg");
+}
+
 .slick-testimonial .slick-list,
 .slick-testimonial .slick-track {
   height: 100%;
@@ -779,7 +790,7 @@ button:focus:not(:focus-visible) {
   TEAM MEMBERS               
 -----------------------------------------*/
 .team {
-  background: var(--grey-color);
+  background-color: #fff;
 }
 
 .team-thumb {
