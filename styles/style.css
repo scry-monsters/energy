@@ -1,6 +1,6 @@
 :root {
 	--white-color: #ffffff;
-	--primary-color: #ff4400;
+	--primary-color: #4f62c3;
 	--section-bg-color: #f0f8ff;
 	--dark-color: #000000;
 	--grey-color: #d0d1d1;
@@ -1085,6 +1085,11 @@ button:focus:not(:focus-visible) {
 
 	h6 {
 		font-size: 20px;
+	}
+
+	.slick-title {
+		color: var(--white-color);
+		font-size: 30px;
 	}
 
 	.lead {
